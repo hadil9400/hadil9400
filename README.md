@@ -42,15 +42,11 @@ delay(1000); // wait for a second
 
 ```
 
-## Output
+# Output 
 
 > The LED is blinked with a time interval od 1 second
 
-<iframe width="560" height="315"
 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 # Experiment 2 : Traffic Light
 
@@ -108,11 +104,6 @@ digitalWrite(redled, LOW);// turn off red LED
 
 > In Traffic light the green LED blink about 5 second, then it is turnoff. Then the yellow LED blinks 3 times with a time interval of 0.5 second.Then the red LED blink about 5 seconds. This process continues.
 
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 # Experiment 3 : LED Chasing Effect
 
@@ -163,12 +154,8 @@ void loop()
 ```
 
 ## Output
+>led blinkes one by one 
 
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 # Experiment 4: Button Controlled LED
 
@@ -217,13 +204,7 @@ else
 ```
 ## Output
 
-> When the push button is pressed the LED is turned on otherwise it is off.
-
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+> When the push button is pressed the LED is turned on otherwise it is off
 
 # Experiment 5 : Buzzer
 
@@ -324,11 +305,6 @@ for(val=0; val<255; val++)
 
 > The RGB LED blinks.
 
-<iframe width="560" height="315"
-src="https://user-images.githubusercontent.com/91405741/137348290-42dcbd25-ad12-4c09-b50b-b8edf17e6235.mp4"
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 
 # Experiment 7 - LDR Light Sensor
@@ -400,12 +376,8 @@ Serial.println(ldrStatus);
 ```
 
 ## Output
+>led blow when  we Block light LDR otherwise LED Blow
 
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 
 # Experiment 8 : Flame Sensor
@@ -488,11 +460,7 @@ void loop()
 
 ## Output
 
-<iframe width="560" height="315"
-L
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+>Buzzer will make alarm when  fire is produced 
 
 
 # Experiment 9 : LM35 Temperature Sensor
@@ -539,11 +507,7 @@ delay(2000);// wait for 2 second
 
 ## Output
 
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>        
+ >it will display temperature of room in monitor 
 
 
 # Experiment 10:IR Remote Control Using TSOP
@@ -634,12 +598,7 @@ void loop() {
 ```
 
 ## Output
-
-<iframe width="560" height="315"
-
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe> 
+>we can control led  by remote 
 
 
 # Experiment 11 :Potentiometer analog Value Reading
@@ -859,3 +818,4 @@ delay(1000); // wait for 1s
 ```
 
 ## Output
+>it will display digital Number 
